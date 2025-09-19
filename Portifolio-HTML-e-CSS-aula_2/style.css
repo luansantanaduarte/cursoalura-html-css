@@ -1,13 +1,27 @@
-/* Referência da tag {
+/* Seletor {
     Propriedade
  } */
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
  body {
+    /* Define a tela como 100% do viewport (vh) */
+    height: 100vh;
+    /* Define que os limites dos conteúdos está diretamente ligado a border da tag pai */
+    box-sizing: border-box;
     background-color: black;
     /* Quando quisermos representar cores em hexadecimal, usamos o # */
     color: #F6F6F6;
 }
 
-strong {
+.titulo-destaque {
     color: #22D4FD;
+}
+
+.apresentacao {
+    display: flex;
+    align-items: center;
 }
