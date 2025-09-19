@@ -1,3 +1,13 @@
 /* Referência da tag {
     Propriedade
  } */
+
+ body {
+    background-color: black;
+    /* Quando quisermos representar cores em hexadecimal, usamos o # */
+    color: #F6F6F6;
+}
+
+strong {
+    color: #22D4FD;
+}
