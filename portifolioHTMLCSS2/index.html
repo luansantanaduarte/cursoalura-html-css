@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <!-- Dicionário de caracteres diferenciados -->
     <meta charset="UTF-8">
@@ -9,19 +10,26 @@
     <!-- Tag responsável por fazer o link entre o CSS e o HTML. O rel dita do que se trata e o href faz a referência de fato -->
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <!-- Cabeçalho -->
-    <header></header>
     <!-- Porção principal da página web -->
     <main class="apresentacao">
-        <!-- A tag <strong> torna uma parte de um texto destacada para o navegador-->
-        <h1>Eleve seu negócio digital a outro nível <strong class="titulo-destaque">com um Front-end de qualidade!</strong></h1>
-        <p>Olá! Sou Joana Santos, desenvolvedora Front-end com especialidade em React, HTML e CSS. Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
-        <a href="https://www.instagram.com/">Instagram</a>
-        <a href="https://github.com/">Github</a>
+        <!-- tag <section> cria um agrupamento de código que pode ser estilizado de maneira conjunta -->
+        <section class="apresentacao__conteudo">
+            <!-- A tag <strong> torna uma parte de um texto destacada para o navegador-->
+            <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível <strong
+                    class="titulo-destaque">com um Front-end de
+                    qualidade!</strong></h1>
+            <p class="apresentacao__conteudo__texto">Olá! Sou Joana Santos, desenvolvedora Front-end com especialidade
+                em React, HTML e CSS. Ajudo pequenos
+                negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
+            <div class="apresentacao__links">
+                <a href="https://www.instagram.com/" class="apresentacao__links__link">Instagram</a>
+                <a href="https://github.com/" class="apresentacao__links__link">Github</a>
+            </div>
+        </section>
         <img src="Imagem.png" alt="Foto da Joana Santos programando.">
     </main>
-    <!-- Rodapé -->
-    <footer></footer>
 </body>
+
 </html>

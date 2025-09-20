@@ -2,12 +2,14 @@
     Propriedade
  } */
 
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
 }
 
- body {
+body {
     /* Define a tela como 100% do viewport (vh) */
     height: 100vh;
     /* Define que os limites dos conteúdos está diretamente ligado a border da tag pai */
@@ -22,6 +24,48 @@
 }
 
 .apresentacao {
+    padding: 10%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__conteudo__titulo {
+    font-family: "Krona One", sans-serif;
+    font-size: 36px;
+}
+
+.apresentacao__conteudo__texto {
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.apresentacao__links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentacao__links__link {
+    background-color: #22D4FD;
+    width: 280px;
+    /* Alinhamento somente do texto */
+    text-align: center;
+    /* Raio da borda */
+    border-radius: 15px;
+    font-size: 24px;
+    padding: 21.5px 0;
+    /* Retira as decorações de texto que vem por padrão */
+    text-decoration: none;
+    color: #000000;
+    font-family: "Montserrat", sans-serif;
+    /* Define o peso da fonte */
+    font-weight: 600;
+
 }
